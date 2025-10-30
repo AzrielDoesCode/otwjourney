@@ -1,0 +1,64 @@
+[[BANDIT]]
+
+
+**LEVEL 0**  
+Login to bandit labs using ssh as Bandit0 user by the code 
+	`ssh bandit0@bandit.labs.overthewire.org -p 2220` 
+Then use Nano Terminal Text reader to get the key by the command  
+	`nano readme`
+	ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+
+
+**LEVEL 1** 
+Access the server using SSH as Bandit1 similarly, this time using the code retrieved from the last level
+Here the name of the file is "-" NOW here we will need to do smthn different to access as the file using NANO since the name consists of a symbol at the first character; modification reqd is { ./  }
+such that
+	`nano ./-`       (easier unified way to remember :p)
+giving us
+	263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+**LEVEL 2** 
+	`nano ./--spaces in this filename--"
+	(TIP : ./--sp   <TAB key)
+	
+	MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+**LEVEL 3** 
+
+
+to display all the files incl hidden
+`ls -a` 
+
+
+to display all the files incl hidden explicitly
+`ls -la`
+
+`nano ./...Hiding-From-You`
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+
+**LEVEL 4**
+use FILE command to get details on the contents of all 8 files as follows
+	`file ./*`
+ then cat the file (-File07 here) to get the code 
+ 
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+
+**LEVEL 5**
+emphasize on the DU, FILE and FIND commands now
+
+	`find . -type f -size 1033c ! -executable`
+where;
+- -type f → only files.
+
+- -size 1033c → exactly 1033 bytes (c = bytes).
+
+- ! -executable → exclude executables.
+
+and you get the code!
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+**LEVEL 6**
+
