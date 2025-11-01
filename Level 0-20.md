@@ -61,4 +61,26 @@ and you get the code!
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 **LEVEL 6**
+Here also we will need to use FIND command this time exactly following the Info given directly while writiing the  command 
 
+`find / -type f -user bandit7 -group bandit6 -size 33c`
+- owned by user bandit7
+- owned by group bandit6
+- 33 bytes in size
+
+find .
+- The . refers to the current working directory.
+- Example: If you’re in /home/dhruv/projects, then:
+	`find . `
+- will list everything under /home/dhruv/projects recursively.
+
+
+find /
+- The / refers to the root directory of the entire filesystem.
+- Example:
+	`find /`
+- will traverse every directory on the system: /bin, /etc, /home, /var, /usr, etc.
+
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+LEVEL 7
