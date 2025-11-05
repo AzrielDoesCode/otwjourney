@@ -83,4 +83,44 @@ find /
 
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
-LEVEL 7
+**LEVEL 7**
+Here onwards we will have a new set of commmands to focus on 
+man, grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+
+so here we use a combination of two of them,Strings and grep
+
+`strings data.txt | grep "millionth"`
+
+millionth	dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+**LEVEL 8**
+ MAN or WHATIS commands
+
+`sort data.txt`
+`sort data.txt | uniq -c`
+
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+**LEVEL 9**
+`strings data.txt | grep "="` 
+
+FB`=
+c\5D=
+========== the
+?/=l
+=Uc1
+=vG*2P
+========== password
+k=ezG
+E========== is
+=%r_
+.?=Dm
+O&A=n
+5========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+=*^Y
+=L3jT
+q<=,
+'QHE=
++=NBf
+
+**LEVEL 10**
