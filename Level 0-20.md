@@ -124,3 +124,8 @@ q<=,
 +=NBf
 
 **LEVEL 10**
+We use Base64 tool and its decode command < -d > 
+base64 -d data.txt
+`dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr`
+
+**LEVEL 11**
